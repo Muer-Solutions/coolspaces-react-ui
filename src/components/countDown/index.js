@@ -72,14 +72,14 @@ function CountDown() {
         </TimeSection>
         <TimeSection>
           <Time>{state.minutes || '00'}</Time>
-          <TimeText>Minutes</TimeText>
+          <TimeText>Min</TimeText>
         </TimeSection>
         <TimeSection>
           <Time>:</Time>
         </TimeSection>
         <TimeSection>
           <Time>{state.seconds || '00'}</Time>
-          <TimeText>Seconds</TimeText>
+          <TimeText>Sec</TimeText>
         </TimeSection>
       </CountDownWrapper>
       <NotifyWrapper>
