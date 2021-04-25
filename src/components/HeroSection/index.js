@@ -12,8 +12,10 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>Find your space.</HeroH1>
                 <HeroP>
-                    coworking spaces with desks, offices & meeting rooms in your country. 
-                    Discover and reserve space today
+                    Cool-space is a platform that enables people to meet, create (collaborate with colleagues ) and
+                    celebrate (a major milestone). Space owners around the country can lease their property and
+                    make it available for rent by the hour/ day for people seeking a location for their next meeting,
+                    event or activity.
                 </HeroP>
 
                 {/* count down component */}
