@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  coolspaces:
+    container_name: coolspaces
+    restart: unless-stopped
+    build: .
+    environment: 
+      - NODE_PATH=/app/src
+    ports:
+      - '3000:80'
+    
