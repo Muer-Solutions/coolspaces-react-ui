@@ -32,7 +32,7 @@ export const Time = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 `
 export const TimeText = styled.div`

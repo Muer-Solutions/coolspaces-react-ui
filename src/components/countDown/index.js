@@ -61,21 +61,21 @@ function CountDown() {
           <TimeText>Days</TimeText>
         </TimeSection>
         <TimeSection>
-          <Time>:</Time>
+          <Time style={{paddingBottom: '1.5rem'}}>:</Time>
         </TimeSection>
         <TimeSection>
           <Time>{state.hours || '00'}</Time>
           <TimeText>Hours</TimeText>
         </TimeSection>
         <TimeSection>
-          <Time>:</Time>
+          <Time style={{paddingBottom: '1.5rem'}}>:</Time>
         </TimeSection>
         <TimeSection>
           <Time>{state.minutes || '00'}</Time>
           <TimeText>Min</TimeText>
         </TimeSection>
         <TimeSection>
-          <Time>:</Time>
+          <Time style={{paddingBottom: '1.5rem'}}>:</Time>
         </TimeSection>
         <TimeSection>
           <Time>{state.seconds || '00'}</Time>
